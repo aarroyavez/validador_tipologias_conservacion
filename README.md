@@ -90,13 +90,10 @@ El script realiza los siguientes pasos:
 ## **Ejemplo de Uso**
 
 Entrada:
-Archivo UNIDAD_CONSTRUCCION.csv con las siguientes columnas:
-
-Tipificacion: Tipología seleccionada por el usuario (ejemplo: 2A).
-
-Puntos: Puntaje asignado por el usuario (ejemplo: 14).
-
-Anio Construccion: Año de construcción de la unidad (ejemplo: 2010).
+- Archivo UNIDAD_CONSTRUCCION.csv con las siguientes columnas:
+- Tipificacion: Tipología seleccionada por el usuario (ejemplo: 2A).
+- Puntos: Puntaje asignado por el usuario (ejemplo: 14).
+- Anio Construccion: Año de construcción de la unidad (ejemplo: 2010).
 
 Salida:
 Archivo UNIDAD_CONSTRUCCION_VALIDADO_FINAL.csv con las columnas adicionales mencionadas anteriormente.
@@ -111,9 +108,27 @@ Reportar errores o sugerir mejoras abriendo un issue.
 
 Enviar un pull request con tus cambios.
 
+---
 
+## **Licencia**
 
+Este proyecto está bajo la licencia MIT. Si usas este código, por favor, menciona este repositorio.
 
+---
+
+## **Contacto**
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+
+Nombre: Alexander Arroyave Zapata
+
+Email: aarroyavez@unal.edu.co
+
+GitHub: https://github.com/aarroyavez
+
+---
+
+¡Gracias por usar este proyecto! 😊
 
 
 
