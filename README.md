@@ -16,7 +16,7 @@ El objetivo de este proyecto es:
 ## **Estructura del Repositorio**
 
 - **`UNIDAD_CONSTRUCCION.csv`**: Archivo CSV de entrada que contiene los datos de las unidades de construcción.
-- **`validacion_tipologias_v5.py`**: Script en Python que procesa los datos y genera el archivo de salida.
+- **`validacion_tipologia_v5.py`**: Script en Python que procesa los datos y genera el archivo de salida.
 - **`UNIDAD_CONSTRUCCION_VALIDADO_FINAL.csv`**: Archivo CSV de salida con los resultados del procesamiento.
 - **`README.md`**: Este archivo, que explica el proyecto.
 
@@ -63,3 +63,59 @@ El script realiza los siguientes pasos:
    Si no tienes instalada la librería `pandas`, puedes instalarla con el siguiente comando:
    ```bash
    pip install pandas
+
+3. **Ejecución**:
+   - Coloca el archivo UNIDAD_CONSTRUCCION.csv en la misma carpeta que el script.
+   - Ejecuta el script con el siguiente comando:
+     
+   ```bash
+   python validacion_tipologia_v5.py
+   
+- El archivo de salida UNIDAD_CONSTRUCCION_VALIDADO_FINAL.csv se generará en la misma carpeta.
+---
+
+## **Columnas del Archivo de Salida**
+
+- El archivo de salida (UNIDAD_CONSTRUCCION_VALIDADO_FINAL.csv) contiene las siguientes columnas adicionales:
+- Tipologia_Digitada: La tipología que el usuario digitó originalmente.
+- Tipologia_Recalculada: La tipología correcta según los parámetros.
+- Conservacion_Digitada: La conservación que el usuario seleccionó.
+- Conservacion_Calculada: La conservación correcta según los parámetros.
+- Puntaje_Calculado: El puntaje correcto según los parámetros.
+- Validacion: True si el puntaje calculado coincide con el original, False si no coincide.
+- Puntos_Digitados: Copia exacta de la columna Puntos.
+
+---
+
+## **Ejemplo de Uso**
+
+Entrada:
+Archivo UNIDAD_CONSTRUCCION.csv con las siguientes columnas:
+
+Tipificacion: Tipología seleccionada por el usuario (ejemplo: 2A).
+
+Puntos: Puntaje asignado por el usuario (ejemplo: 14).
+
+Anio Construccion: Año de construcción de la unidad (ejemplo: 2010).
+
+Salida:
+Archivo UNIDAD_CONSTRUCCION_VALIDADO_FINAL.csv con las columnas adicionales mencionadas anteriormente.
+
+---
+
+## **Contribuciones**
+
+Si deseas contribuir a este proyecto, ¡eres bienvenido! Puedes:
+
+Reportar errores o sugerir mejoras abriendo un issue.
+
+Enviar un pull request con tus cambios.
+
+
+
+
+
+
+
+
+
